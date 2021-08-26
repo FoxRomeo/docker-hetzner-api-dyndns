@@ -1,5 +1,9 @@
 # docker-hetzner-api-dyndns
-Docker Container for FarrowStranger/hetzner-api-dyndns
+<a href="https://hub.docker.com/r/intrepidde/arm32v6-docker-hetzner-api-dyndns"><img src="https://img.shields.io/docker/pulls/intrepidde/arm32v6-docker-hetzner-api-dyndns.svg?style=plastic&logo=appveyor" alt="Docker pulls arm32v6"/></a><br>
+<a href="https://hub.docker.com/r/intrepidde/arm64v8-docker-hetzner-api-dyndns"><img src="https://img.shields.io/docker/pulls/intrepidde/arm64v8-docker-hetzner-api-dyndns.svg?style=plastic&logo=appveyor" alt="Docker pulls arm32v8"/></a><br>
+<a href="https://hub.docker.com/r/intrepidde/x86-docker-hetzner-api-dyndns"><img src="https://img.shields.io/docker/pulls/intrepidde/x86-docker-hetzner-api-dyndns.svg?style=plastic&logo=appveyor" alt="Docker pulls x86"/></a><br>
+__Raspberry Pi (RPi) Docker container with <a href="https://github.com/FarrowStrange/hetzner-api-dyndns">FarrowStranger/hetzner-api-dyndns</a>__
+(arm32v6 aka RPi A/B/B+ and later, arm64v8 and x86/amd64)
 based on alpine with supercronic & jq
 
 default /etc/cron.d/crontab is set to run dyndns.sh every minute
