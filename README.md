@@ -1,10 +1,10 @@
 # docker-hetzner-api-dyndns
-##Docker Container for FarrowStranger/hetzner-api-dyndns
+## Docker Container for FarrowStranger/hetzner-api-dyndns
 based on alpine with supercronic & jq
 
-##default /etc/cron.d/crontab is set to run dyndns.sh every minute
+## default /etc/cron.d/crontab is set to run dyndns.sh every minute
 
-##set Environment for your needs (will not work without)
+## set Environment for your needs (will not work without)
 
 ```
 HETZNER_AUTH_API_TOKEN	925bf046408b55c313740eef2bc18b1e	Your Hetzner API access token
