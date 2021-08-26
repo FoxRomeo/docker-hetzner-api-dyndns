@@ -14,5 +14,7 @@ RUN passwd -l root ; \
 # look at https://github.com/FarrowStrange/hetzner-api-dyndns
 # for the required ENV variables
 
+ENV HETZNER_RECORD_TTL 120
+
 USER cron
 CMD ["/usr/local/bin/supercronic", "/etc/cron.d/crontab"]

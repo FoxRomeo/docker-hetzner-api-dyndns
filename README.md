@@ -6,7 +6,7 @@ __Raspberry Pi (RPi) Docker container with <a href="https://github.com/FarrowStr
 (arm32v6 aka RPi A/B/B+ and later, arm64v8 and x86/amd64)
 based on alpine with supercronic & jq
 
-default /etc/cron.d/crontab is set to run dyndns.sh every minute
+default /etc/cron.d/crontab is set to run dyndns.sh 5 minutes
 
 ### set Environment for your needs (will not work without)
 
