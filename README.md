@@ -8,6 +8,9 @@ based on alpine with supercronic & jq
 
 default /etc/cron.d/crontab is set to run dyndns.sh 5 minutes
 
+** The old API will be _discontinued_ My 2026 **
+Branch main will soon be (or is already) new-API only. Use old-api branch but remember you have a deadline.
+
 ### set Environment for your needs (will not work without)
 
 ```
