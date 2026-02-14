@@ -5,7 +5,7 @@ USER root
 RUN passwd -l root ; \
     apk add --update --no-cache bind-tools git && \
     cd / && \
-    git clone --depth 1 https://github.com/FoxRomeo/hetzner-api-dyndns.git && \
+    git clone --depth 1 --branch old-api https://github.com/FoxRomeo/hetzner-api-dyndns.git && \
     echo "*/5 * * * *  /hetzner-api-dyndns/dyndns.sh" > /etc/cron.d/crontab
 
 # -v <path_to_your>/crontab:/etc/cron.d/crontab:ro
