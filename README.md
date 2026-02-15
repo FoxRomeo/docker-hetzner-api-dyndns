@@ -8,10 +8,15 @@ based on alpine with supercronic & jq
 
 default /etc/cron.d/crontab is set to run dyndns.sh 5 minutes
 
+Using Hetzner Console-API
+** The old API will be _discontinued_ My 2026 **
+Branch main will is now  new-API only. Use can use old-api branch but remember you have a deadline.
+When migrating to Console-API, remember you need to generate a new Token.
+
 ### set Environment for your needs (will not work without)
 
 ```
-HETZNER_AUTH_API_TOKEN	925bf046408b55c313740eef2bc18b1e	Your Hetzner API access token
+HETZNER_AUTH_API_TOKEN	925bf046408b55c313740eef2bc18b1e	Your Hetzner Console-API access token
 HETZNER_ZONE_NAME	example.com				The zone name
 HETZNER_ZONE_ID		DaGaoE6YzDTQHKxrtzfkTx			The zone ID. Use either the zone name or the zone ID. Not both.
 HETZNER_RECORD_NAME	dyn					The record name. '@' to set the record for the zone itself.
