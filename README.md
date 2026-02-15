@@ -16,7 +16,6 @@ Using Hetzner Console-API
 
 ### set Environment for your needs (will not work without)
 
-```
 |NAME                   | Value                            | Description                                                     |
 |:----------------------|----------------------------------|:----------------------------------------------------------------|
 |HETZNER_AUTH_API_TOKEN | 925bf046408b55c313740eef2bc18b1e | Your Hetzner Console-API access token|
@@ -25,6 +24,6 @@ Using Hetzner Console-API
 |HETZNER_RECORD_NAME | dyn | The record name. '@' to set the record for the zone itself.|
 |HETZNER_RECORD_TTL | 120 | The TTL of the record. Default(60)|
 |HETZNER_RECORD_TYPE | AAAA | The record type. Either A for IPv4 or AAAA for IPv6. Default(A)|
-```
+
 
 
