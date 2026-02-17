@@ -1,5 +1,9 @@
 FROM <<BASECONTAINER>>
-MAINTAINER docker@intrepid.de
+
+LABEL description="Docker container with a supercronic, jq for Hetzner-API dyndns.sh" \
+      maintainer="intrepidde" \
+      organization="https://github.com/FoxRomeo"
+
 
 USER root
 RUN passwd -l root ; \
@@ -16,7 +20,7 @@ RUN passwd -l root ; \
 # look at https://github.com/FoxRomeo/hetzner-api-dyndns
 # for the required ENV variables
 
-ENV HETZNER_RECORD_TTL 120
+ENV HETZNER_RECORD_TTL=120
 
 USER cron
 CMD ["/usr/local/bin/supercronic", "/etc/cron.d/crontab"]
